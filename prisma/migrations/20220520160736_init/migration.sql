@@ -1,0 +1,12 @@
+-- CreateTable
+CREATE TABLE "Messages" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "content" TEXT NOT NULL,
+    "deleteKey" TEXT NOT NULL,
+    "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "worldID" INTEGER NOT NULL,
+    "teri" INTEGER NOT NULL,
+    "x" REAL NOT NULL,
+    "y" REAL NOT NULL,
+    "z" REAL NOT NULL
+);

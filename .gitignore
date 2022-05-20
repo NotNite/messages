@@ -1,0 +1,10 @@
+# fucking macos
+.DS_Store
+
+# fucking nodejs
+node_modules/
+src/**/*.js
+
+# fucking prisma
+prisma/database.db
+prisma/database.db-journal
